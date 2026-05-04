@@ -1,47 +1,28 @@
-# Mission Stammformen
+# Mission Stammformen – Version 2
 
-Eine kleine GitHub-Pages-Web-App zum Üben schwieriger deutscher Stammformen.
+Korrigierte Version.
 
-## Inhalt
+## Neu / korrigiert
 
-- 100 anspruchsvolle Verben bzw. Verbverwendungen
-- Beispielsatz pro Aufgabe
-- Präteritum und Partizip II
-- Varianten werden akzeptiert
-- Hinweise bei Spezialfällen, z. B.:
-  - `buk` ist eher veraltet
-  - hängen: `hing/gehangen` vs. `hängte/gehängt`
-  - erschrecken: `erschrak/erschrocken` vs. `erschreckte/erschreckt`
-
-## Punkte
-
+- Die Infinitivform wird gross und fett angezeigt.
+- Der Beispielsatz wird sichtbar unter dem Infinitiv angezeigt.
+- Enter funktioniert:
+  - erstes Enter = korrigieren
+  - zweites Enter = nächste Aufgabe
 - 1 Punkt pro richtige Form
-- Wenn Präteritum und Partizip II gefragt sind: maximal 2 Punkte
+- maximal 2 Punkte pro Verb, wenn beide Formen gefragt sind
+- Varianten werden akzeptiert, z. B. `backte` und `buk`
+- Spezialhinweise werden nach der Lösung angezeigt.
 
-## Modi
+## GitHub aktualisieren
 
-- Präteritum + Partizip II
-- Nur Präteritum
-- Nur Partizip II
-- Gemischt
-
-## GitHub Pages
-
-1. Neues Repository erstellen oder bestehendes Repository öffnen
-2. Diese Dateien hochladen:
+1. Alte Dateien löschen:
    - `index.html`
    - `style.css`
    - `script.js`
    - `README.md`
-3. Auf **Commit changes** klicken
-4. Unter **Settings > Pages** aktivieren:
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: /root
-5. Link öffnen
+2. Neue Dateien hochladen
+3. **Commit changes**
+4. Seite mit **Ctrl + F5** neu laden
 
-## Cache
-
-Wenn nach einer Änderung noch die alte Version erscheint:
-- Windows/Linux: `Ctrl + F5`
-- Mac: `Cmd + Shift + R`
+Falls es trotzdem gleich aussieht: im privaten Fenster testen.

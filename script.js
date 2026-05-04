@@ -1,1123 +1,1080 @@
 const verbs = [
-  [
-    "backen",
-    "Der Bäcker ___ gestern frisches Brot.",
-    [
+  {
+    "infinitive": "backen",
+    "sentence": "Der Bäcker ___ gestern frisches Brot.",
+    "preterite": [
       "backte",
       "buk"
     ],
-    [
+    "participle": [
       "gebacken"
     ],
-    "«buk» ist korrekt, aber heute eher veraltet/gehoben; «backte» ist üblich."
-  ],
-  [
-    "befehlen",
-    "Der Offizier ___ den Rückzug.",
-    [
+    "hint": "«buk» ist korrekt, aber heute eher veraltet/gehoben; «backte» ist üblich."
+  },
+  {
+    "infinitive": "befehlen",
+    "sentence": "Der Offizier ___ den Rückzug.",
+    "preterite": [
       "befahl"
     ],
-    [
+    "participle": [
       "befohlen"
     ],
-    ""
-  ],
-  [
-    "beginnen",
-    "Der Unterricht ___ um acht Uhr.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "beginnen",
+    "sentence": "Der Unterricht ___ um acht Uhr.",
+    "preterite": [
       "begann"
     ],
-    [
+    "participle": [
       "begonnen"
     ],
-    ""
-  ],
-  [
-    "beissen",
-    "Der Hund ___ den Briefträger.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "beissen",
+    "sentence": "Der Hund ___ den Briefträger.",
+    "preterite": [
       "biss"
     ],
-    [
+    "participle": [
       "gebissen"
     ],
-    "Schweizer Schreibweise: «beissen» statt «beißen»."
-  ],
-  [
-    "bergen",
-    "Die Rettungskräfte ___ die Verletzten aus dem Auto.",
-    [
+    "hint": "Schweizer Schreibweise: «beissen» statt «beißen»."
+  },
+  {
+    "infinitive": "bergen",
+    "sentence": "Die Rettungskräfte ___ die Verletzten aus dem Auto.",
+    "preterite": [
       "bargen"
     ],
-    [
+    "participle": [
       "geborgen"
     ],
-    ""
-  ],
-  [
-    "bersten",
-    "Das Glas ___ durch die Hitze.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "bersten",
+    "sentence": "Das Glas ___ durch die Hitze.",
+    "preterite": [
       "barst"
     ],
-    [
+    "participle": [
       "geborsten"
     ],
-    ""
-  ],
-  [
-    "betrügen",
-    "Der Händler ___ seine Kunden.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "betrügen",
+    "sentence": "Der Händler ___ seine Kunden.",
+    "preterite": [
       "betrog"
     ],
-    [
+    "participle": [
       "betrogen"
     ],
-    ""
-  ],
-  [
-    "bewegen",
-    "Seine Rede ___ viele Menschen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "bewegen",
+    "sentence": "Seine Rede ___ viele Menschen.",
+    "preterite": [
       "bewegte"
     ],
-    [
+    "participle": [
       "bewegt"
     ],
-    "Hier bedeutet «bewegen» emotional berühren. Nicht: «bewog» = veranlassen."
-  ],
-  [
-    "bewegen",
-    "Der Trainer ___ ihn zum Weitermachen.",
-    [
+    "hint": "Hier bedeutet «bewegen» emotional berühren. Nicht: «bewog» = veranlassen."
+  },
+  {
+    "infinitive": "bewegen",
+    "sentence": "Der Trainer ___ ihn zum Weitermachen.",
+    "preterite": [
       "bewog"
     ],
-    [
+    "participle": [
       "bewogen"
     ],
-    "Hier bedeutet «bewegen» veranlassen/überzeugen."
-  ],
-  [
-    "biegen",
-    "Der Fahrer ___ nach links ab.",
-    [
+    "hint": "Hier bedeutet «bewegen» veranlassen/überzeugen."
+  },
+  {
+    "infinitive": "biegen",
+    "sentence": "Der Fahrer ___ nach links ab.",
+    "preterite": [
       "bog"
     ],
-    [
+    "participle": [
       "gebogen"
     ],
-    ""
-  ],
-  [
-    "bieten",
-    "Die Firma ___ ihm eine Stelle an.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "bieten",
+    "sentence": "Die Firma ___ ihm eine Stelle an.",
+    "preterite": [
       "bot"
     ],
-    [
+    "participle": [
       "geboten"
     ],
-    ""
-  ],
-  [
-    "binden",
-    "Sie ___ das Paket mit einer Schnur.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "binden",
+    "sentence": "Sie ___ das Paket mit einer Schnur.",
+    "preterite": [
       "band"
     ],
-    [
+    "participle": [
       "gebunden"
     ],
-    ""
-  ],
-  [
-    "bitten",
-    "Er ___ seine Kollegin um Hilfe.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "bitten",
+    "sentence": "Er ___ seine Kollegin um Hilfe.",
+    "preterite": [
       "bat"
     ],
-    [
+    "participle": [
       "gebeten"
     ],
-    ""
-  ],
-  [
-    "blasen",
-    "Der Wind ___ stark durch die Gassen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "blasen",
+    "sentence": "Der Wind ___ stark durch die Gassen.",
+    "preterite": [
       "blies"
     ],
-    [
+    "participle": [
       "geblasen"
     ],
-    ""
-  ],
-  [
-    "bleiben",
-    "Wir ___ den ganzen Abend zu Hause.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "bleiben",
+    "sentence": "Wir ___ den ganzen Abend zu Hause.",
+    "preterite": [
       "blieben"
     ],
-    [
+    "participle": [
       "geblieben"
     ],
-    ""
-  ],
-  [
-    "braten",
-    "Sie ___ die Kartoffeln in der Pfanne.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "braten",
+    "sentence": "Sie ___ die Kartoffeln in der Pfanne.",
+    "preterite": [
       "briet"
     ],
-    [
+    "participle": [
       "gebraten"
     ],
-    ""
-  ],
-  [
-    "brechen",
-    "Das Kind ___ sich den Arm.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "brechen",
+    "sentence": "Das Kind ___ sich den Arm.",
+    "preterite": [
       "brach"
     ],
-    [
+    "participle": [
       "gebrochen"
     ],
-    ""
-  ],
-  [
-    "brennen",
-    "Die Kerze ___ die ganze Nacht.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "brennen",
+    "sentence": "Die Kerze ___ die ganze Nacht.",
+    "preterite": [
       "brannte"
     ],
-    [
+    "participle": [
       "gebrannt"
     ],
-    ""
-  ],
-  [
-    "bringen",
-    "Er ___ die Unterlagen ins Büro.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "bringen",
+    "sentence": "Er ___ die Unterlagen ins Büro.",
+    "preterite": [
       "brachte"
     ],
-    [
+    "participle": [
       "gebracht"
     ],
-    ""
-  ],
-  [
-    "denken",
-    "Sie ___ lange über die Lösung nach.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "denken",
+    "sentence": "Sie ___ lange über die Lösung nach.",
+    "preterite": [
       "dachte"
     ],
-    [
+    "participle": [
       "gedacht"
     ],
-    ""
-  ],
-  [
-    "dreschen",
-    "Die Bauern ___ früher das Getreide von Hand.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "dreschen",
+    "sentence": "Die Bauern ___ früher das Getreide von Hand.",
+    "preterite": [
       "droschen"
     ],
-    [
+    "participle": [
       "gedroschen"
     ],
-    ""
-  ],
-  [
-    "dringen",
-    "Wasser ___ in den Keller.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "dringen",
+    "sentence": "Wasser ___ in den Keller.",
+    "preterite": [
       "drang"
     ],
-    [
+    "participle": [
       "gedrungen"
     ],
-    ""
-  ],
-  [
-    "dürfen",
-    "Die Lernenden ___ früher gehen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "dürfen",
+    "sentence": "Die Lernenden ___ früher gehen.",
+    "preterite": [
       "durften"
     ],
-    [
+    "participle": [
       "gedurft"
     ],
-    ""
-  ],
-  [
-    "empfehlen",
-    "Die Ärztin ___ ihm mehr Bewegung.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "empfehlen",
+    "sentence": "Die Ärztin ___ ihm mehr Bewegung.",
+    "preterite": [
       "empfahl"
     ],
-    [
+    "participle": [
       "empfohlen"
     ],
-    ""
-  ],
-  [
-    "erlöschen",
-    "Das Feuer ___ nach einigen Stunden.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "erlöschen",
+    "sentence": "Das Feuer ___ nach einigen Stunden.",
+    "preterite": [
       "erlosch"
     ],
-    [
+    "participle": [
       "erloschen"
     ],
-    "Intransitiv: Das Feuer erlosch. Nicht: löschte."
-  ],
-  [
-    "erschrecken",
-    "Das Kind ___ wegen des lauten Knalls.",
-    [
+    "hint": "Intransitiv: Das Feuer erlosch."
+  },
+  {
+    "infinitive": "erschrecken",
+    "sentence": "Das Kind ___ wegen des lauten Knalls.",
+    "preterite": [
       "erschrak"
     ],
-    [
+    "participle": [
       "erschrocken"
     ],
-    "Intransitiv: selbst Angst bekommen."
-  ],
-  [
-    "erschrecken",
-    "Der Knall ___ das Kind.",
-    [
+    "hint": "Intransitiv: selbst Angst bekommen."
+  },
+  {
+    "infinitive": "erschrecken",
+    "sentence": "Der Knall ___ das Kind.",
+    "preterite": [
       "erschreckte"
     ],
-    [
+    "participle": [
       "erschreckt"
     ],
-    "Transitiv: jemanden erschrecken."
-  ],
-  [
-    "essen",
-    "Wir ___ gestern sehr spät.",
-    [
+    "hint": "Transitiv: jemanden erschrecken."
+  },
+  {
+    "infinitive": "essen",
+    "sentence": "Wir ___ gestern sehr spät.",
+    "preterite": [
       "assen",
       "aßen"
     ],
-    [
+    "participle": [
       "gegessen"
     ],
-    "Schweizer Schreibweise: «assen»; «aßen» ebenfalls akzeptiert."
-  ],
-  [
-    "fahren",
-    "Er ___ mit dem Zug nach Bern.",
-    [
+    "hint": "Schweizer Schreibweise: «assen»; «aßen» ebenfalls akzeptiert."
+  },
+  {
+    "infinitive": "fahren",
+    "sentence": "Er ___ mit dem Zug nach Bern.",
+    "preterite": [
       "fuhr"
     ],
-    [
+    "participle": [
       "gefahren"
     ],
-    ""
-  ],
-  [
-    "fallen",
-    "Das Glas ___ vom Tisch.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "fallen",
+    "sentence": "Das Glas ___ vom Tisch.",
+    "preterite": [
       "fiel"
     ],
-    [
+    "participle": [
       "gefallen"
     ],
-    ""
-  ],
-  [
-    "fangen",
-    "Der Torhüter ___ den Ball.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "fangen",
+    "sentence": "Der Torhüter ___ den Ball.",
+    "preterite": [
       "fing"
     ],
-    [
+    "participle": [
       "gefangen"
     ],
-    ""
-  ],
-  [
-    "finden",
-    "Sie ___ den Schlüssel im Auto.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "finden",
+    "sentence": "Sie ___ den Schlüssel im Auto.",
+    "preterite": [
       "fand"
     ],
-    [
+    "participle": [
       "gefunden"
     ],
-    ""
-  ],
-  [
-    "flechten",
-    "Sie ___ ihrer Tochter einen Zopf.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "flechten",
+    "sentence": "Sie ___ ihrer Tochter einen Zopf.",
+    "preterite": [
       "flocht"
     ],
-    [
+    "participle": [
       "geflochten"
     ],
-    ""
-  ],
-  [
-    "fliessen",
-    "Der Fluss ___ ruhig durch das Tal.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "fliessen",
+    "sentence": "Der Fluss ___ ruhig durch das Tal.",
+    "preterite": [
       "floss",
       "floß"
     ],
-    [
+    "participle": [
       "geflossen"
     ],
-    "Schweizer Schreibweise: «fliessen/floss»; «floß» ebenfalls akzeptiert."
-  ],
-  [
-    "fliegen",
-    "Das Flugzeug ___ über die Alpen.",
-    [
+    "hint": "Schweizer Schreibweise: «fliessen/floss»; «floß» ebenfalls akzeptiert."
+  },
+  {
+    "infinitive": "fliegen",
+    "sentence": "Das Flugzeug ___ über die Alpen.",
+    "preterite": [
       "flog"
     ],
-    [
+    "participle": [
       "geflogen"
     ],
-    ""
-  ],
-  [
-    "fliehen",
-    "Die Katze ___ vor dem Hund.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "fliehen",
+    "sentence": "Die Katze ___ vor dem Hund.",
+    "preterite": [
       "floh"
     ],
-    [
+    "participle": [
       "geflohen"
     ],
-    ""
-  ],
-  [
-    "frieren",
-    "Wir ___ trotz warmer Jacken.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "frieren",
+    "sentence": "Wir ___ trotz warmer Jacken.",
+    "preterite": [
       "froren"
     ],
-    [
+    "participle": [
       "gefroren"
     ],
-    ""
-  ],
-  [
-    "geben",
-    "Sie ___ ihm einen guten Rat.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "geben",
+    "sentence": "Sie ___ ihm einen guten Rat.",
+    "preterite": [
       "gab"
     ],
-    [
+    "participle": [
       "gegeben"
     ],
-    ""
-  ],
-  [
-    "gedeihen",
-    "Die Pflanzen ___ im milden Klima.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "gedeihen",
+    "sentence": "Die Pflanzen ___ im milden Klima.",
+    "preterite": [
       "gediehen"
     ],
-    [
+    "participle": [
       "gediehen"
     ],
-    ""
-  ],
-  [
-    "gehen",
-    "Er ___ gestern zu Fuss zur Schule.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "gehen",
+    "sentence": "Er ___ gestern zu Fuss zur Schule.",
+    "preterite": [
       "ging"
     ],
-    [
+    "participle": [
       "gegangen"
     ],
-    ""
-  ],
-  [
-    "gelingen",
-    "Das Experiment ___ beim zweiten Versuch.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "gelingen",
+    "sentence": "Das Experiment ___ beim zweiten Versuch.",
+    "preterite": [
       "gelang"
     ],
-    [
+    "participle": [
       "gelungen"
     ],
-    ""
-  ],
-  [
-    "gelten",
-    "Diese Regel ___ früher für alle.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "gelten",
+    "sentence": "Diese Regel ___ früher für alle.",
+    "preterite": [
       "galt"
     ],
-    [
+    "participle": [
       "gegolten"
     ],
-    ""
-  ],
-  [
-    "genesen",
-    "Der Patient ___ schneller als erwartet.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "genesen",
+    "sentence": "Der Patient ___ schneller als erwartet.",
+    "preterite": [
       "genas"
     ],
-    [
+    "participle": [
       "genesen"
     ],
-    ""
-  ],
-  [
-    "geniessen",
-    "Wir ___ die Ferien sehr.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "geniessen",
+    "sentence": "Wir ___ die Ferien sehr.",
+    "preterite": [
       "genossen"
     ],
-    [
+    "participle": [
       "genossen"
     ],
-    "Schweizer Schreibweise: «geniessen»."
-  ],
-  [
-    "geschehen",
-    "Das Unglück ___ am frühen Morgen.",
-    [
+    "hint": "Schweizer Schreibweise: «geniessen»."
+  },
+  {
+    "infinitive": "geschehen",
+    "sentence": "Das Unglück ___ am frühen Morgen.",
+    "preterite": [
       "geschah"
     ],
-    [
+    "participle": [
       "geschehen"
     ],
-    ""
-  ],
-  [
-    "gewinnen",
-    "Unser Team ___ das Finale.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "gewinnen",
+    "sentence": "Unser Team ___ das Finale.",
+    "preterite": [
       "gewann"
     ],
-    [
+    "participle": [
       "gewonnen"
     ],
-    ""
-  ],
-  [
-    "giessen",
-    "Sie ___ die Blumen jeden Morgen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "giessen",
+    "sentence": "Sie ___ die Blumen jeden Morgen.",
+    "preterite": [
       "goss",
       "goß"
     ],
-    [
+    "participle": [
       "gegossen"
     ],
-    "Schweizer Schreibweise: «giessen/goss»; «goß» ebenfalls akzeptiert."
-  ],
-  [
-    "gleichen",
-    "Das Kind ___ seinem Vater sehr.",
-    [
+    "hint": "Schweizer Schreibweise: «giessen/goss»; «goß» ebenfalls akzeptiert."
+  },
+  {
+    "infinitive": "gleichen",
+    "sentence": "Das Kind ___ seinem Vater sehr.",
+    "preterite": [
       "glich"
     ],
-    [
+    "participle": [
       "geglichen"
     ],
-    ""
-  ],
-  [
-    "gleiten",
-    "Der Schlitten ___ über den Schnee.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "gleiten",
+    "sentence": "Der Schlitten ___ über den Schnee.",
+    "preterite": [
       "glitt"
     ],
-    [
+    "participle": [
       "geglitten"
     ],
-    ""
-  ],
-  [
-    "graben",
-    "Der Hund ___ ein Loch im Garten.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "graben",
+    "sentence": "Der Hund ___ ein Loch im Garten.",
+    "preterite": [
       "grub"
     ],
-    [
+    "participle": [
       "gegraben"
     ],
-    ""
-  ],
-  [
-    "greifen",
-    "Sie ___ nach dem Seil.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "greifen",
+    "sentence": "Sie ___ nach dem Seil.",
+    "preterite": [
       "griff"
     ],
-    [
+    "participle": [
       "gegriffen"
     ],
-    ""
-  ],
-  [
-    "haben",
-    "Wir ___ gestern keine Zeit.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "haben",
+    "sentence": "Wir ___ gestern keine Zeit.",
+    "preterite": [
       "hatten"
     ],
-    [
+    "participle": [
       "gehabt"
     ],
-    ""
-  ],
-  [
-    "halten",
-    "Der Bus ___ an der Haltestelle.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "halten",
+    "sentence": "Der Bus ___ an der Haltestelle.",
+    "preterite": [
       "hielt"
     ],
-    [
+    "participle": [
       "gehalten"
     ],
-    ""
-  ],
-  [
-    "hängen",
-    "Das Bild ___ schief an der Wand.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "hängen",
+    "sentence": "Das Bild ___ schief an der Wand.",
+    "preterite": [
       "hing"
     ],
-    [
+    "participle": [
       "gehangen"
     ],
-    "Intransitiv: etwas hängt irgendwo."
-  ],
-  [
-    "hängen",
-    "Er ___ das Bild an die Wand.",
-    [
+    "hint": "Intransitiv: etwas hängt irgendwo."
+  },
+  {
+    "infinitive": "hängen",
+    "sentence": "Er ___ das Bild an die Wand.",
+    "preterite": [
       "hängte"
     ],
-    [
+    "participle": [
       "gehängt"
     ],
-    "Transitiv: jemand hängt etwas auf."
-  ],
-  [
-    "heben",
-    "Der Arbeiter ___ die schwere Kiste.",
-    [
+    "hint": "Transitiv: jemand hängt etwas auf."
+  },
+  {
+    "infinitive": "heben",
+    "sentence": "Der Arbeiter ___ die schwere Kiste.",
+    "preterite": [
       "hob"
     ],
-    [
+    "participle": [
       "gehoben"
     ],
-    ""
-  ],
-  [
-    "heissen",
-    "Das Hotel ___ früher «Sternen».",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "heissen",
+    "sentence": "Das Hotel ___ früher «Sternen».",
+    "preterite": [
       "hiess",
       "hieß"
     ],
-    [
+    "participle": [
       "geheissen",
       "geheißen"
     ],
-    "Schweizer Schreibweise: «heissen/hiess/geheissen»."
-  ],
-  [
-    "helfen",
-    "Die Nachbarin ___ uns beim Umzug.",
-    [
+    "hint": "Schweizer Schreibweise: «heissen/hiess/geheissen»."
+  },
+  {
+    "infinitive": "helfen",
+    "sentence": "Die Nachbarin ___ uns beim Umzug.",
+    "preterite": [
       "half"
     ],
-    [
+    "participle": [
       "geholfen"
     ],
-    ""
-  ],
-  [
-    "kennen",
-    "Ich ___ die Antwort sofort.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "kennen",
+    "sentence": "Ich ___ die Antwort sofort.",
+    "preterite": [
       "kannte"
     ],
-    [
+    "participle": [
       "gekannt"
     ],
-    ""
-  ],
-  [
-    "klingen",
-    "Die Musik ___ sehr traurig.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "klingen",
+    "sentence": "Die Musik ___ sehr traurig.",
+    "preterite": [
       "klang"
     ],
-    [
+    "participle": [
       "geklungen"
     ],
-    ""
-  ],
-  [
-    "kommen",
-    "Sie ___ pünktlich zum Termin.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "kommen",
+    "sentence": "Sie ___ pünktlich zum Termin.",
+    "preterite": [
       "kam"
     ],
-    [
+    "participle": [
       "gekommen"
     ],
-    ""
-  ],
-  [
-    "können",
-    "Er ___ die Aufgabe ohne Hilfe lösen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "können",
+    "sentence": "Er ___ die Aufgabe ohne Hilfe lösen.",
+    "preterite": [
       "konnte"
     ],
-    [
+    "participle": [
       "gekonnt"
     ],
-    ""
-  ],
-  [
-    "kriechen",
-    "Die Schnecke ___ über den Weg.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "kriechen",
+    "sentence": "Die Schnecke ___ über den Weg.",
+    "preterite": [
       "kroch"
     ],
-    [
+    "participle": [
       "gekrochen"
     ],
-    ""
-  ],
-  [
-    "laden",
-    "Er ___ die Kisten ins Auto.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "laden",
+    "sentence": "Er ___ die Kisten ins Auto.",
+    "preterite": [
       "lud"
     ],
-    [
+    "participle": [
       "geladen"
     ],
-    ""
-  ],
-  [
-    "lassen",
-    "Sie ___ die Tür offen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "lassen",
+    "sentence": "Sie ___ die Tür offen.",
+    "preterite": [
       "liess",
       "ließ"
     ],
-    [
+    "participle": [
       "gelassen"
     ],
-    "Schweizer Schreibweise: «liess»; «ließ» ebenfalls akzeptiert."
-  ],
-  [
-    "laufen",
-    "Das Kind ___ schnell nach Hause.",
-    [
+    "hint": "Schweizer Schreibweise: «liess»; «ließ» ebenfalls akzeptiert."
+  },
+  {
+    "infinitive": "laufen",
+    "sentence": "Das Kind ___ schnell nach Hause.",
+    "preterite": [
       "lief"
     ],
-    [
+    "participle": [
       "gelaufen"
     ],
-    ""
-  ],
-  [
-    "leiden",
-    "Viele Menschen ___ unter der Hitze.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "leiden",
+    "sentence": "Viele Menschen ___ unter der Hitze.",
+    "preterite": [
       "litten"
     ],
-    [
+    "participle": [
       "gelitten"
     ],
-    ""
-  ],
-  [
-    "leihen",
-    "Er ___ mir sein Fahrrad.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "leihen",
+    "sentence": "Er ___ mir sein Fahrrad.",
+    "preterite": [
       "lieh"
     ],
-    [
+    "participle": [
       "geliehen"
     ],
-    ""
-  ],
-  [
-    "lesen",
-    "Sie ___ den Roman in zwei Tagen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "lesen",
+    "sentence": "Sie ___ den Roman in zwei Tagen.",
+    "preterite": [
       "las"
     ],
-    [
+    "participle": [
       "gelesen"
     ],
-    ""
-  ],
-  [
-    "liegen",
-    "Das Buch ___ auf dem Tisch.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "liegen",
+    "sentence": "Das Buch ___ auf dem Tisch.",
+    "preterite": [
       "lag"
     ],
-    [
+    "participle": [
       "gelegen"
     ],
-    ""
-  ],
-  [
-    "lügen",
-    "Der Zeuge ___ vor Gericht.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "lügen",
+    "sentence": "Der Zeuge ___ vor Gericht.",
+    "preterite": [
       "log"
     ],
-    [
+    "participle": [
       "gelogen"
     ],
-    ""
-  ],
-  [
-    "meiden",
-    "Sie ___ die gefährliche Strasse.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "meiden",
+    "sentence": "Sie ___ die gefährliche Strasse.",
+    "preterite": [
       "mied"
     ],
-    [
+    "participle": [
       "gemieden"
     ],
-    ""
-  ],
-  [
-    "melken",
-    "Der Bauer ___ die Kuh am Morgen.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "melken",
+    "sentence": "Der Bauer ___ die Kuh am Morgen.",
+    "preterite": [
       "melkte",
       "molk"
     ],
-    [
+    "participle": [
       "gemolken",
       "gemelkt"
     ],
-    "«molk» und «gemolken» sind traditionell; «melkte/gemelkt» wird ebenfalls verwendet."
-  ],
-  [
-    "messen",
-    "Der Arzt ___ den Blutdruck.",
-    [
+    "hint": "«molk» und «gemolken» sind traditionell; «melkte/gemelkt» wird ebenfalls verwendet."
+  },
+  {
+    "infinitive": "messen",
+    "sentence": "Der Arzt ___ den Blutdruck.",
+    "preterite": [
       "mass",
       "maß"
     ],
-    [
+    "participle": [
       "gemessen"
     ],
-    "Schweizer Schreibweise: «mass»; «maß» ebenfalls akzeptiert."
-  ],
-  [
-    "misslingen",
-    "Der Versuch ___ trotz guter Vorbereitung.",
-    [
+    "hint": "Schweizer Schreibweise: «mass»; «maß» ebenfalls akzeptiert."
+  },
+  {
+    "infinitive": "misslingen",
+    "sentence": "Der Versuch ___ trotz guter Vorbereitung.",
+    "preterite": [
       "misslang"
     ],
-    [
+    "participle": [
       "misslungen"
     ],
-    ""
-  ],
-  [
-    "mögen",
-    "Als Kind ___ sie keinen Spinat.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "mögen",
+    "sentence": "Als Kind ___ sie keinen Spinat.",
+    "preterite": [
       "mochte"
     ],
-    [
+    "participle": [
       "gemocht"
     ],
-    ""
-  ],
-  [
-    "müssen",
-    "Wir ___ lange warten.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "müssen",
+    "sentence": "Wir ___ lange warten.",
+    "preterite": [
       "mussten",
       "mußten"
     ],
-    [
+    "participle": [
       "gemusst",
       "gemußt"
     ],
-    "Schweizer Schreibweise: «mussten/gemusst»."
-  ],
-  [
-    "nehmen",
-    "Er ___ den falschen Bus.",
-    [
+    "hint": "Schweizer Schreibweise: «mussten/gemusst»."
+  },
+  {
+    "infinitive": "nehmen",
+    "sentence": "Er ___ den falschen Bus.",
+    "preterite": [
       "nahm"
     ],
-    [
+    "participle": [
       "genommen"
     ],
-    ""
-  ],
-  [
-    "nennen",
-    "Sie ___ ihn einen Helden.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "nennen",
+    "sentence": "Sie ___ ihn einen Helden.",
+    "preterite": [
       "nannte"
     ],
-    [
+    "participle": [
       "genannt"
     ],
-    ""
-  ],
-  [
-    "pfeifen",
-    "Der Schiedsrichter ___ das Spiel ab.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "pfeifen",
+    "sentence": "Der Schiedsrichter ___ das Spiel ab.",
+    "preterite": [
       "pfiff"
     ],
-    [
+    "participle": [
       "gepfiffen"
     ],
-    ""
-  ],
-  [
-    "raten",
-    "Ich ___ ihm zur Vorsicht.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "raten",
+    "sentence": "Ich ___ ihm zur Vorsicht.",
+    "preterite": [
       "riet"
     ],
-    [
+    "participle": [
       "geraten"
     ],
-    ""
-  ],
-  [
-    "reiben",
-    "Sie ___ den Käse über die Pasta.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "reiben",
+    "sentence": "Sie ___ den Käse über die Pasta.",
+    "preterite": [
       "rieb"
     ],
-    [
+    "participle": [
       "gerieben"
     ],
-    ""
-  ],
-  [
-    "reissen",
-    "Das Seil ___ plötzlich.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "reissen",
+    "sentence": "Das Seil ___ plötzlich.",
+    "preterite": [
       "riss",
       "riß"
     ],
-    [
+    "participle": [
       "gerissen"
     ],
-    "Schweizer Schreibweise: «reissen/riss»."
-  ],
-  [
-    "reiten",
-    "Sie ___ über die Wiese.",
-    [
+    "hint": "Schweizer Schreibweise: «reissen/riss»."
+  },
+  {
+    "infinitive": "reiten",
+    "sentence": "Sie ___ über die Wiese.",
+    "preterite": [
       "ritt"
     ],
-    [
+    "participle": [
       "geritten"
     ],
-    ""
-  ],
-  [
-    "rennen",
-    "Die Kinder ___ zum Bus.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "rennen",
+    "sentence": "Die Kinder ___ zum Bus.",
+    "preterite": [
       "rannten"
     ],
-    [
+    "participle": [
       "gerannt"
     ],
-    ""
-  ],
-  [
-    "riechen",
-    "Die Blumen ___ wunderbar.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "riechen",
+    "sentence": "Die Blumen ___ wunderbar.",
+    "preterite": [
       "rochen"
     ],
-    [
+    "participle": [
       "gerochen"
     ],
-    ""
-  ],
-  [
-    "rufen",
-    "Er ___ laut um Hilfe.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "rufen",
+    "sentence": "Er ___ laut um Hilfe.",
+    "preterite": [
       "rief"
     ],
-    [
+    "participle": [
       "gerufen"
     ],
-    ""
-  ],
-  [
-    "saufen",
-    "Das Tier ___ aus dem Bach.",
-    [
-      "soff"
-    ],
-    [
-      "gesoffen"
-    ],
-    "Umgangssprachlich/derb bei Menschen; bei Tieren neutraler."
-  ],
-  [
-    "saugen",
-    "Der Staubsauger ___ den Staub auf.",
-    [
-      "saugte",
-      "sog"
-    ],
-    [
-      "gesaugt",
-      "gesogen"
-    ],
-    "«sog/gesogen» ist bei Luft/Sog üblich; «saugte/gesaugt» beim Staubsauger sehr gebräuchlich."
-  ],
-  [
-    "schaffen",
-    "Der Künstler ___ ein neues Werk.",
-    [
+    "hint": ""
+  },
+  {
+    "infinitive": "schaffen",
+    "sentence": "Der Künstler ___ ein neues Werk.",
+    "preterite": [
       "schuf"
     ],
-    [
+    "participle": [
       "geschaffen"
     ],
-    "Bedeutung: erschaffen."
-  ],
-  [
-    "schaffen",
-    "Sie ___ die Prüfung beim ersten Versuch.",
-    [
+    "hint": "Bedeutung: erschaffen."
+  },
+  {
+    "infinitive": "schaffen",
+    "sentence": "Sie ___ die Prüfung beim ersten Versuch.",
+    "preterite": [
       "schaffte"
     ],
-    [
+    "participle": [
       "geschafft"
     ],
-    "Bedeutung: bewältigen/erreichen."
-  ],
-  [
-    "scheiden",
-    "Das Gericht ___ die Ehe.",
-    [
-      "schied"
-    ],
-    [
-      "geschieden"
-    ],
-    ""
-  ],
-  [
-    "scheinen",
-    "Die Sonne ___ den ganzen Tag.",
-    [
-      "schien"
-    ],
-    [
-      "geschienen"
-    ],
-    ""
-  ],
-  [
-    "schelten",
-    "Der Lehrer ___ den Schüler wegen der Störung.",
-    [
-      "schalt"
-    ],
-    [
-      "gescholten"
-    ],
-    "Seltene, gehobene Form."
-  ],
-  [
-    "schieben",
-    "Er ___ den Wagen in die Garage.",
-    [
-      "schob"
-    ],
-    [
-      "geschoben"
-    ],
-    ""
-  ],
-  [
-    "schiessen",
-    "Die Spielerin ___ das entscheidende Tor.",
-    [
+    "hint": "Bedeutung: bewältigen/erreichen."
+  },
+  {
+    "infinitive": "schiessen",
+    "sentence": "Die Spielerin ___ das entscheidende Tor.",
+    "preterite": [
       "schoss",
       "schoß"
     ],
-    [
+    "participle": [
       "geschossen"
     ],
-    "Schweizer Schreibweise: «schiessen/schoss»."
-  ],
-  [
-    "schlafen",
-    "Das Baby ___ die ganze Nacht.",
-    [
-      "schlief"
+    "hint": "Schweizer Schreibweise: «schiessen/schoss»."
+  },
+  {
+    "infinitive": "schliessen",
+    "sentence": "Sie ___ die Tür leise.",
+    "preterite": [
+      "schloss",
+      "schloß"
     ],
-    [
-      "geschlafen"
+    "participle": [
+      "geschlossen"
     ],
-    ""
-  ],
-  [
-    "schlagen",
-    "Die Uhr ___ Mitternacht.",
-    [
-      "schlug"
+    "hint": "Schweizer Schreibweise: «schliessen/schloss»."
+  },
+  {
+    "infinitive": "schmelzen",
+    "sentence": "Das Eis ___ in der Sonne.",
+    "preterite": [
+      "schmolz"
     ],
-    [
-      "geschlagen"
+    "participle": [
+      "geschmolzen"
     ],
-    ""
-  ],
-  [
-    "schleichen",
-    "Die Katze ___ durchs Zimmer.",
-    [
-      "schlich"
+    "hint": "Intransitiv: Eis schmilzt."
+  },
+  {
+    "infinitive": "schmelzen",
+    "sentence": "Der Goldschmied ___ das Metall.",
+    "preterite": [
+      "schmelzte"
     ],
-    [
-      "geschlichen"
+    "participle": [
+      "geschmelzt"
     ],
-    ""
-  ],
-  [
-    "schleifen",
-    "Der Handwerker ___ das Messer.",
-    [
-      "schliff"
+    "hint": "Transitiv: jemand schmilzt etwas; hier wird die schwache Form geübt."
+  },
+  {
+    "infinitive": "senden",
+    "sentence": "Der Journalist ___ den Bericht am Abend.",
+    "preterite": [
+      "sendete",
+      "sandte"
     ],
-    [
-      "geschliffen"
+    "participle": [
+      "gesendet",
+      "gesandt"
     ],
-    "Bedeutung: schärfen/glätten."
-  ]
+    "hint": "«sandte/gesandt» wirkt formeller; «sendete/gesendet» ist sehr gebräuchlich."
+  },
+  {
+    "infinitive": "wiegen",
+    "sentence": "Das Paket ___ drei Kilo.",
+    "preterite": [
+      "wog"
+    ],
+    "participle": [
+      "gewogen"
+    ],
+    "hint": "Bedeutung: Gewicht haben."
+  },
+  {
+    "infinitive": "wiegen",
+    "sentence": "Die Mutter ___ das Kind in den Schlaf.",
+    "preterite": [
+      "wiegte"
+    ],
+    "participle": [
+      "gewiegt"
+    ],
+    "hint": "Bedeutung: hin und her bewegen."
+  }
 ];
 
-let state = JSON.parse(localStorage.getItem("missionStammformenState")) || {
+let state = JSON.parse(localStorage.getItem("missionStammformenStateV2")) || {
   score: 0,
   streak: 0,
   totalForms: 0,
@@ -1189,7 +1146,7 @@ function updateStats() {
   $("xpText").textContent = `${state.xp} / 100 XP`;
   $("xpBar").style.width = state.xp + "%";
 
-  localStorage.setItem("missionStammformenState", JSON.stringify(state));
+  localStorage.setItem("missionStammformenStateV2", JSON.stringify(state));
 }
 
 function addXp(points) {
@@ -1305,6 +1262,13 @@ $("resetBtn").addEventListener("click", () => {
 });
 
 $("modeSelect").addEventListener("change", newTask);
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" && document.activeElement.tagName !== "BUTTON") {
+    // Das Formular übernimmt Enter in den Eingabefeldern.
+    // Diese Zeile verhindert kein normales Tippen, sorgt aber für sauberes Verhalten.
+  }
+});
 
 updateStats();
 newTask();
