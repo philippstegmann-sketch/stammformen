@@ -1,26 +1,29 @@
-# Mission Stammformen – Version 3
+# Mission Stammformen – Version 4
 
-Diese Version zeigt je nach Übungsmodus passende Beispielsätze.
+Diese Version korrigiert die Modalverb-Problematik und weitere Stolpersteine.
 
-## Neu in v3
+## Neu in v4
 
-- Modus Präteritum:
-  - zeigt einen Satz im Präteritum
-- Modus Partizip II:
-  - zeigt einen Satz im Perfekt
-- Modus Präteritum + Partizip II:
-  - zeigt beide Sätze
-- Modus Gemischt:
-  - passt die Anzeige automatisch an
-- Die Lücke wird optisch hervorgehoben
-- Enter:
-  - erstes Enter = korrigieren
-  - zweites Enter = nächste Aufgabe
+- Modalverben mit weiterem Infinitiv verwenden im Perfekt den Ersatzinfinitiv:
+  - `hat lösen können`
+  - `haben gehen dürfen`
+  - `haben warten müssen`
+- Das Eingabefeld heisst dann automatisch:
+  - `Ersatzinfinitiv im Perfekt`
+- Normale Verben bleiben bei:
+  - `Partizip II`
+- Die Beispielsätze passen sich weiterhin dem Modus an:
+  - Präteritum
+  - Perfekt
+  - beide Formen
+  - gemischt
+- Einige Perfekt-Sätze wurden fachlich geglättet.
+- Varianten werden weiterhin akzeptiert.
 
 ## Punkte
 
 - 1 Punkt pro richtige Form
-- maximal 2 Punkte, wenn beide Formen gefragt sind
+- maximal 2 Punkte, wenn zwei Formen gefragt sind
 
 ## GitHub aktualisieren
 
