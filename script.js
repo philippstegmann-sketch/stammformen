@@ -827,7 +827,7 @@ const verbs = [
     ],
     "hint": "",
     "sentencePreterite": "Ich ___ die Antwort sofort.",
-    "sentencePerfect": "Ich hat die Antwort sofort ___.",
+    "sentencePerfect": "Ich habe die Antwort sofort ___.",
     "secondLabel": "Partizip II",
     "secondShortLabel": "Partizip II"
   },
