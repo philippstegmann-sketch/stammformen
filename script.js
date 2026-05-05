@@ -883,7 +883,7 @@ const verbs = [
     ],
     "hint": "",
     "sentencePreterite": "Die Schnecke ___ über den Weg.",
-    "sentencePerfect": "Die Schnecke hat über den Weg ___.",
+    "sentencePerfect": "Die Schnecke ist über den Weg ___.",
     "secondLabel": "Partizip II",
     "secondShortLabel": "Partizip II"
   },
