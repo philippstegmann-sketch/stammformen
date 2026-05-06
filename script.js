@@ -1211,7 +1211,7 @@ const verbs = [
     ],
     "hint": "",
     "sentencePreterite": "Die Blumen ___ wunderbar.",
-    "sentencePerfect": "Die Blumen hat wunderbar ___.",
+    "sentencePerfect": "Die Blumen haben wunderbar ___.",
     "secondLabel": "Partizip II",
     "secondShortLabel": "Partizip II"
   },
